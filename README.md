@@ -15,7 +15,8 @@
    aleatoriamente.
 
 Se crean las variables a tener en cuenta entre ellas un array que permita agregar los datos que agrega el usuario
-
-let agregarAmigosALista = [];
+```javascript
+ let agregarAmigosALista = [];
  let listaDeAmigos = document.getElementById('listaAmigos');
  let sorteo = document.getElementById('resultado');
+´´´
