@@ -19,7 +19,7 @@ Se crean las variables a tener en cuenta entre ellas un array que permita agrega
  let agregarAmigosALista = [];
  let listaDeAmigos = document.getElementById('listaAmigos');
  let sorteo = document.getElementById('resultado');
-´´´
+```
 
  Se crea la funcion AGREGAR AMIGO que permite almacenar los datos del usuario
 ```javascript
@@ -38,14 +38,17 @@ Se crean las variables a tener en cuenta entre ellas un array que permita agrega
      limpiarCaja();
      return;
  };
-´´´
+```
+
+
 Tambien se limpiara la caja antes de agregar otro dato 
  ```javascript
  // Limpieza de caja
  function limpiarCaja(){
      document.getElementById('amigo').value = '';
  }
- ´´´
+ ```
+
 
  Se crea la funcion ACTUALIZAR LISTA
 ```javascript
@@ -60,7 +63,7 @@ Tambien se limpiara la caja antes de agregar otro dato
          listaDeAmigos.appendChild(nombreAgregado);
      }
  }
-´´´
+```
 
  
 Se crea la funcion SORTEAR AMIGO, que permite entre todos los valores de la lista elegir aleatoriamente uno de los datos
@@ -76,4 +79,4 @@ Se crea la funcion SORTEAR AMIGO, que permite entre todos los valores de la list
          sorteo.innerHTML = `El amigo ganador del sorteo es... ${agregarAmigosALista[amigoSorteado]} !!!!`;
      }
  }
-´´´
+```
