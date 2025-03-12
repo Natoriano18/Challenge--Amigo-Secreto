@@ -82,4 +82,6 @@ Se crea la funcion SORTEAR AMIGO, que permite entre todos los valores de la list
 ```
 
 El resultado sera el siguiente:
+
+
 ![final](https://github.com/user-attachments/assets/de790f72-a4ed-4347-85ec-6872ecc7d0df)
