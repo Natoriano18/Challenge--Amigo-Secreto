@@ -13,3 +13,9 @@
 - `Funcionalidad 3`: Los nombres ingresados en la caja se visualizaran debajo del campo "Escribe un nombre"
 - `Funcionalidad 4`: El usuario debera hacer click en boton "Sortear Amigo" y al hacerlo se visualizará el nombre que se sorteo 
    aleatoriamente.
+
+Se crean las variables a tener en cuenta entre ellas un array que permita agregar los datos que agrega el usuario
+
+let agregarAmigosALista = [];
+ let listaDeAmigos = document.getElementById('listaAmigos');
+ let sorteo = document.getElementById('resultado');
