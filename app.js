@@ -6,10 +6,10 @@
  
  //Implementa una función para agregar amigos
  function agregarAmigo () {
-     //Capturar el valor del campo de entrada
+     //Permite almacenar los datos que se ingresan a la caja vacia
      let nombre = document.getElementById('amigo').value;
      console.log(nombre);
-     //Validar la entrada
+     //solicita un dato obligatorio
      if (nombre === '') {
          alert('Por favor, inserte un nombre.');
      } else{
@@ -28,7 +28,7 @@
  
  //Implementa una función para actualizar la lista de amigos
  function actualizarLista() {
-     //Limpiar la lista existente
+     //actualiza la lista existente
      listaDeAmigos.innerHTML = '';
      //iterar sobre el arreglo
      for (var i = 1; i <= agregarAmigosALista.length; i++) {
@@ -41,7 +41,7 @@
  
 //Implementa una función para sortear los amigos
  function sortearAmigo() {
-     //Validar que haya amigos disponibles
+     //Validar la cantidad de datos ingresados en la caja
      if (agregarAmigosALista <= 1) {
          alert('No hay amigos suficientes en la lista para sortear');
      } else {
